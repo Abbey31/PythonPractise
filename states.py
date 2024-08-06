@@ -1,7 +1,8 @@
+
 states = input(("Enter your state and get your geo political zone ")).title()
 
 match states:
-    case "Oyo"|"Ogun"|"Osun"|"ondo"|"Ekiti"|"Lagos":
+    case "Oyo"|"Ogun"|"Osun"|"Ondo"|"Ekiti"|"Lagos":
           print("You are from the south-west") 
     case "Akwa Ibom"|"Bayelsa"|"Cross River"|"Delta"|"Edo"|"Rivers":
           print("You are from South South")
@@ -13,3 +14,5 @@ match states:
         print("You are from North-East")
     case "Benue"|"Kogi"|"Kwara"|"Nassarawa"|"Niger"|"Plateau"|"FCT":
         print("You are from North-central")
+    case _:
+          print("you are an illegl immigrant")
