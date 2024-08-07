@@ -18,8 +18,8 @@ if player < 1 or player > 3:
 computer_choice = random.choice("123")
 
 computer = int(computer_choice)  
-
 print("")
+
 print("You chose " + str(RPS(player)).replace('RPS.','' +"."))
 print("Python chose " + str(RPS(computer)).replace('RPS.','') + ".")
 print("")
