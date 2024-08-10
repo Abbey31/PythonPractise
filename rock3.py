@@ -52,6 +52,7 @@ def play_game():
         else:
             print("\n🎉🎉🎉🎉🎉")
             print("Thank you for playing!\n")
-        sys.exit("Bye! 👋")
-
+        
 play_game()
+
+sys.exit("Bye! 👋")
