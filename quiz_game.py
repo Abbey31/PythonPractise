@@ -9,3 +9,6 @@ print("Okay let's play😎😊😊")
 answer = input("what does A.I stand for?")
 if answer == "artificial intelligence":
     print("correct")
+
+answer = input("What is the capital of England? ")
+if answer == ""
