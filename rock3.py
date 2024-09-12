@@ -48,7 +48,7 @@ def play_game():
             else:
                 break
         if play_again.lower() == "y":
-            return play_game()
+            return play_game() 
         else:
             print("\n🎉🎉🎉🎉🎉")
             print("Thank you for playing!\n")

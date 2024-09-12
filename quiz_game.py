@@ -11,4 +11,5 @@ if answer == "artificial intelligence":
     print("correct")
 
 answer = input("What is the capital of England? ")
-if answer == ""
+if answer == "london":
+    print("correct!")
