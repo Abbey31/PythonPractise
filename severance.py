@@ -25,4 +25,4 @@
 capitals = {'USA':'Washington DC',
             'India':'New delhi','China':'Beijing',
             'Russia':'Moscow'}
-print(capitals.get('Germany'))
+print(capitals.get('China'))
